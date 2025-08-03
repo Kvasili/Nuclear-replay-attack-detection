@@ -16,11 +16,14 @@ The core functionality includes detecting replay attacks using a trained LSTM Au
 ## 📂 Repository Structure
 
 ├── datasets/
-│ └── Shutdown_X_replay_vY.csv # Input replay datasets
+       # Input replay datasets
+│ └── Shutdown_X_replay_vY.csv 
 ├── models/
-│ └── lstm_autoencoder_replay_vX.model # Pre-trained AE model
+      # Pre-trained AE model
+│ └── lstm_autoencoder_replay_vX.model 
 ├── results/
-│ └── *.csv, *.gif # Output CSV and GIF files
+      # Output CSV and GIF files
+│ └── *.csv, *.gif 
 ├── real_time_reactor_anomaly_detection_shap.py
 ├── plot_anomalies_real_time.py
 └── README.md
