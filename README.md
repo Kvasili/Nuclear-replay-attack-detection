@@ -13,22 +13,6 @@ joblib
 This repository provides a real-time anomaly detection and explainability framework for multivariate time series (MTS) data collected from a PUR-1 reactor. 
 The core functionality includes detecting replay attacks using a trained LSTM Autoencoder and interpreting the anomalies using a windowed SHAP method.
 
-## 📂 Repository Structure
-
-├── datasets/
-       # Input replay datasets
-│ └── Shutdown_X_replay_vY.csv 
-├── models/
-      # Pre-trained AE model
-│ └── lstm_autoencoder_replay_vX.model 
-├── results/
-      # Output CSV and GIF files
-│ └── *.csv, *.gif 
-├── real_time_reactor_anomaly_detection_shap.py
-├── plot_anomalies_real_time.py
-└── README.md
-
-
 
 ## 🚀 How to Run
 
