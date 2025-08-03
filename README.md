@@ -6,6 +6,8 @@ numpy
 keras / tensorflow
 matplotlib
 joblib
+WindowSHAP
+
 
 
 # Replay Attack Detection using Autoencoder and SHAP
