@@ -48,6 +48,13 @@ The training datasets used to develop the autoencoder are not publicly available
 Access can be granted upon request for research or academic purposes.
 
 
+## 🔍 WindowSHAP Integration
+
+This project utilizes the **WindowSHAP** algorithm for interpreting the reconstruction errors of the LSTM Autoencoder in a time-series context.
+
+The original implementation can be found at:
+🔗 [https://github.com/vsubbian/WindowSHAP](https://github.com/vsubbian/WindowSHAP)
+
 
 ### Contact
 For questions, please contact: Konstantinos Vasili at vasilik@purdue.edu
