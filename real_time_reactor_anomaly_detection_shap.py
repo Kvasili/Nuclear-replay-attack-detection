@@ -42,7 +42,7 @@ SHAP_FEATURES = [f'SHAP_{f}' for f in FEATURES]
 CSV_HEADERS = FEATURES + ["reconstruction_error"] + SHAP_FEATURES
 
 
-def to_sequences(df: pd.DataFrame, seq_size: int) -> np.ndarray:
+def to_sequences(df, seq_size):
     """Converts a DataFrame into overlapping sequences for LSTM input."""
     return np.array([df.iloc[i:i+seq_size].values for i in range(len(df) - seq_size)])
 
