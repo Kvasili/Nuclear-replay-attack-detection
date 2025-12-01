@@ -167,8 +167,11 @@ def main():
 
             mean_shap = np.mean(shap_vals, axis=1).flatten()
 
-            row_data.update({k: mean_shap[i]
-                            for i, k in enumerate(SHAP_FEATURES)})
+            row_data.update({
+                k: mean_shap[i] if mean_shap[i] > 0.0001 or mean_shap[i] < 0 else 0
+                for i, k in enumerate(SHAP_FEATURES)
+            })
+
         else:
             row_data.update({k: None for k in SHAP_FEATURES})
 
