@@ -61,6 +61,10 @@ The original implementation can be found at:
 ### Contact
 For questions, please contact: Konstantinos Vasili at vasilik@purdue.edu
 
+### Publication
+For more details on the project, pleas check our paper:
+https://arxiv.org/abs/2508.09162
+
 
 
 
