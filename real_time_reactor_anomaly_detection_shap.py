@@ -6,7 +6,7 @@
         reconstructs the input, computes the reconstruction error, and when abnormal, explains the anomaly via SHAP values.
 
     Usage:
-        python real_time_reactor_anomaly_detection_shap2.py
+        python real_time_reactor_anomaly_detection_shap.py
 """
 
 import os
